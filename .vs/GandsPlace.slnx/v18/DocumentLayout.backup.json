@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\MainWindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MainWindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\AccueilPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\AccueilPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\GantsPlace.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GantsPlace.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Services\\DataService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\DataService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\HistoriquePage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\HistoriquePage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\ExplorerPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\ExplorerPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\ExplorerPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\ExplorerPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\DetailSallePage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\DetailSallePage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\DemarragePage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\DemarragePage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\DetailSallePage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\DetailSallePage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\AccueilPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\AccueilPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Services\\ImageHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\ImageHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\DemarragePage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\DemarragePage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\LoginPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\LoginPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\LoginPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\LoginPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\InscriptionPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\InscriptionPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 234,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 21,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAOUUAAAAAAAAAAAswBIVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-02-26T15:47:32.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccueilPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\AccueilPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AccueilPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\AccueilPage.xaml.cs",
+              "RelativeToolTip": "Views\\AccueilPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T10:04:05.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T01:08:03.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccueilPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\AccueilPage.xaml",
+              "RelativeDocumentMoniker": "Views\\AccueilPage.xaml",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\AccueilPage.xaml",
+              "RelativeToolTip": "Views\\AccueilPage.xaml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAD4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-25T01:05:41.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPoAAAAAAAAAAIAwwAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-02-24T22:38:17.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DemarragePage.xaml",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\DemarragePage.xaml",
+              "RelativeDocumentMoniker": "Views\\DemarragePage.xaml",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\DemarragePage.xaml",
+              "RelativeToolTip": "Views\\DemarragePage.xaml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-24T22:25:07.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DetailSallePage.xaml",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\DetailSallePage.xaml",
+              "RelativeDocumentMoniker": "Views\\DetailSallePage.xaml",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\DetailSallePage.xaml",
+              "RelativeToolTip": "Views\\DetailSallePage.xaml",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAABsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-24T22:24:42.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExplorerPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\ExplorerPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ExplorerPage.xaml",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\ExplorerPage.xaml",
+              "RelativeToolTip": "Views\\ExplorerPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-24T22:24:21.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "Views\\LoginPage.xaml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAwwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-24T22:23:26.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T22:21:34.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAYwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T22:20:28.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InscriptionPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\InscriptionPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\InscriptionPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\InscriptionPage.xaml.cs",
+              "RelativeToolTip": "Views\\InscriptionPage.xaml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T22:19:37.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ImageHelper.cs",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Services\\ImageHelper.cs",
+              "RelativeDocumentMoniker": "Services\\ImageHelper.cs",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Services\\ImageHelper.cs",
+              "RelativeToolTip": "Services\\ImageHelper.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwCAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T22:10:41.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HistoriquePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\HistoriquePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\HistoriquePage.xaml.cs",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\HistoriquePage.xaml.cs",
+              "RelativeToolTip": "Views\\HistoriquePage.xaml.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAD0AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T22:06:48.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExplorerPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\ExplorerPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ExplorerPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\ExplorerPage.xaml.cs",
+              "RelativeToolTip": "Views\\ExplorerPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T22:03:26.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DemarragePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\DemarragePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\DemarragePage.xaml.cs",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\DemarragePage.xaml.cs",
+              "RelativeToolTip": "Views\\DemarragePage.xaml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T22:02:41.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DetailSallePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\DetailSallePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\DetailSallePage.xaml.cs",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Views\\DetailSallePage.xaml.cs",
+              "RelativeToolTip": "Views\\DetailSallePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T21:56:10.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Services\\DataService.cs",
+              "RelativeDocumentMoniker": "Services\\DataService.cs",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\Services\\DataService.cs",
+              "RelativeToolTip": "Services\\DataService.cs",
+              "ViewState": "AgIAAN0AAAAAAAAAAADwv/cAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T21:41:12.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GantsPlace.csproj",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\GantsPlace.csproj",
+              "RelativeDocumentMoniker": "GantsPlace.csproj",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\GantsPlace.csproj",
+              "RelativeToolTip": "GantsPlace.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-24T21:37:33.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-24T21:37:21.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ziads\\Desktop\\c# vs\\R\u00E9servationdeSalle\\GandsPlace\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-26T15:56:48.599Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

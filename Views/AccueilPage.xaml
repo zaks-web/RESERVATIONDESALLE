@@ -1,0 +1,89 @@
+<Page x:Class="GantsPlace.Views.AccueilPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="{StaticResource SecondaryDarkBrush}" Title="Accueil">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel>
+            <!-- Hero -->
+            <Grid Height="320">
+                <Border Background="#2A2A2A"/>
+                <Border>
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                            <GradientStop Color="#CC000000" Offset="0"/>
+                            <GradientStop Color="#33000000" Offset="0.5"/>
+                            <GradientStop Color="#CC000000" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                </Border>
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Text="Trouvez votre salle idéale chez nous"
+                               FontFamily="{StaticResource AppFont}" FontSize="30" FontWeight="Bold"
+                               Foreground="White" HorizontalAlignment="Center" Margin="0,0,0,8"/>
+                    <TextBlock Text="Choisissez vos critères et trouvez la salle parfaite"
+                               FontFamily="{StaticResource AppFont}" FontSize="15"
+                               Foreground="#CCCCCC" HorizontalAlignment="Center" Margin="0,0,0,24"/>
+
+                    <!-- Barre de recherche -->
+
+                    <Border Background="#F0F0F0" CornerRadius="16"  Padding="20,16" Width="900"  Height="120">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="12"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="20"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <!-- Personnes -->
+                            <StackPanel Grid.Column="0" VerticalAlignment="Bottom">
+                                <TextBlock Text="Nombre de personnes" FontFamily="{StaticResource AppFont}"
+                                           FontSize="11" Foreground="#888888" Margin="0,0,0,4"/>
+                                <Border Background="#E8E8E8" CornerRadius="8" Padding="10,7">
+                                    <TextBox x:Name="TxtPersonnes" FontFamily="{StaticResource AppFont}"
+                                             FontSize="13" BorderThickness="0" Background="Transparent"
+                                             Foreground="#333333" CaretBrush="#333333"
+                                             Tag="ex: 20" GotFocus="SearchBox_GotFocus" LostFocus="SearchBox_LostFocus"
+                                             />
+                                </Border>
+                            </StackPanel>
+                            <!-- Type de salle -->
+                            <StackPanel Grid.Column="2" VerticalAlignment="Bottom">
+                                <TextBlock Text="Type de salle" FontFamily="{StaticResource AppFont}"
+                                           FontSize="11" Foreground="#888888" Margin="0,0,0,4"/>
+                                <Border Background="#E8E8E8" CornerRadius="8" Padding="4,4">
+                                    <ComboBox x:Name="CmbType" FontFamily="{StaticResource AppFont}"
+                                              FontSize="13" BorderThickness="0" Background="Transparent">
+                                        <ComboBoxItem Content="Tous les types" IsSelected="True"/>
+                                        <ComboBoxItem Content="Salle de réunion"/>
+                                        <ComboBoxItem Content="Salle de cours"/>
+                                        <ComboBoxItem Content="Amphithéâtre"/>
+                                    </ComboBox>
+                                </Border>
+                            </StackPanel>
+                            <!-- Bouton Rechercher -->
+                            <Button Grid.Column="4" Content="Rechercher" Style="{StaticResource PrimaryButtonStyle}"
+                                    Padding="20,11" FontSize="14" VerticalAlignment="Bottom"
+                                    Click="BtnRechercher_Click"/>
+                        </Grid>
+                    </Border>
+                </StackPanel>
+            </Grid>
+
+            <!-- Grille 12 salles -->
+            <Border Background="{StaticResource SecondaryDarkBrush}" CornerRadius="20,20,0,0"
+                    Margin="0,-16,0,0" Padding="30,30,30,40">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
+                        <TextBlock Text="Nos salles disponibles" FontFamily="{StaticResource AppFont}"
+                                   FontSize="22" FontWeight="SemiBold" Foreground="White"/>
+                        <TextBlock x:Name="TxtResultats" FontFamily="{StaticResource AppFont}"
+                                   FontSize="14" Foreground="#AAAAAA" VerticalAlignment="Bottom"
+                                   Margin="12,0,0,2"/>
+                    </StackPanel>
+                    <WrapPanel x:Name="SallesPanel" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</Page>
