@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mf/fvakW0Ls=",
+  "dgSpecHash": "2c8ux72jnog=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ziads\\Desktop\\c# vs\\RéservationdeSalle\\GandsPlace\\GandsPlace.csproj",
+  "projectFilePath": "C:\\Users\\ziads\\Desktop\\c# vs\\RéservationdeSalle\\GANDSPLACE\\GandsPlace.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ziads\\.nuget\\packages\\microsoft.data.sqlite\\8.0.0\\microsoft.data.sqlite.8.0.0.nupkg.sha512",
     "C:\\Users\\ziads\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.0\\microsoft.data.sqlite.core.8.0.0.nupkg.sha512",

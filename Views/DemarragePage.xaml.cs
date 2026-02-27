@@ -25,7 +25,7 @@ namespace GantsPlace.Views
                 var brush = ImageHelper.LoadImageBrush($"membre{i + 1}.jpg");
                 if (brush != null)
                     circles[i].Background = brush;
-                // Essayer aussi .png si .jpg absent
+                // Essayer aussi .jpeg si .jpg absent
                 else
                 {
                     brush = ImageHelper.LoadImageBrush($"membre{i + 1}.jpeg");

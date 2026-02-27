@@ -76,10 +76,10 @@ namespace GantsPlace
                 TxtUserName.Text = Session.UtilisateurConnecte?.NomComplet ?? "";
                 TxtUserName.Visibility = Visibility.Visible;
                 BtnDeconnexion.Visibility = Visibility.Visible;
-                // Hide auth buttons when logged in
+                // cacher si déjà inscrit
                 BtnInscription.Visibility = Visibility.Collapsed;
                 BtnConnexion.Visibility = Visibility.Collapsed;
-                // Show navigation buttons when logged in
+                // si connexion ou inscrition, afficher
                 BtnAccueil.Visibility = Visibility.Visible;
                 BtnExplorer.Visibility = Visibility.Visible;
                 BtnHistorique.Visibility = Visibility.Visible;
@@ -89,10 +89,10 @@ namespace GantsPlace
             {
                 TxtUserName.Visibility = Visibility.Collapsed;
                 BtnDeconnexion.Visibility = Visibility.Collapsed;
-                // Show auth buttons when logged out
+                // Montrer bouton de inscription et connexion
                 BtnInscription.Visibility = Visibility.Visible;
                 BtnConnexion.Visibility = Visibility.Visible;
-                // Hide navigation buttons when logged out
+                // Cacher les boutons de navigation si pas inscrit ou connecté
                 BtnAccueil.Visibility = Visibility.Collapsed;
                 BtnExplorer.Visibility = Visibility.Collapsed;
                 BtnHistorique.Visibility = Visibility.Collapsed;

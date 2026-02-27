@@ -19,6 +19,62 @@ namespace GantsPlace.Services
         public static void LoadSalles()
         {
             Salles = GetSalles();
+            InitializeHistoriqueTable();
+        }
+
+        // CREER LA TABLE HISTORIQUE SI ELLE N'EXISTE PAS OU LA RECREER SI SCHEMA INCORRECT
+        private static void InitializeHistoriqueTable()
+        {
+            using var conn = new SqliteConnection(connectionString);
+            conn.Open();
+
+            // Verifier si la table existe
+            string checkTableQuery = "SELECT name FROM sqlite_master WHERE type='table' AND name='Historique';";
+            using var checkCmd = new SqliteCommand(checkTableQuery, conn);
+            var tableExists = checkCmd.ExecuteScalar() != null;
+
+            if (tableExists)
+            {
+                // Verifier le schema
+                string schemaQuery = "PRAGMA table_info(Historique);";
+                using var schemaCmd = new SqliteCommand(schemaQuery, conn);
+                using var reader = schemaCmd.ExecuteReader();
+
+                var columns = new List<string>();
+                while (reader.Read())
+                {
+                    columns.Add(reader.GetString(1)); // name column
+                }
+
+                var requiredColumns = new[] { "id_historique", "id_user", "id_reservation", "action", "timestamp" };
+                bool schemaCorrect = requiredColumns.All(col => columns.Contains(col));
+
+                if (!schemaCorrect)
+                {
+                    // Supprimer et recreer
+                    string dropQuery = "DROP TABLE Historique;";
+                    using var dropCmd = new SqliteCommand(dropQuery, conn);
+                    dropCmd.ExecuteNonQuery();
+                    tableExists = false;
+                }
+            }
+
+            if (!tableExists)
+            {
+                string createQuery = @"
+                    CREATE TABLE Historique (
+                        id_historique INTEGER PRIMARY KEY AUTOINCREMENT,
+                        id_user INTEGER NOT NULL,
+                        id_reservation INTEGER NOT NULL,
+                        action TEXT NOT NULL,
+                        timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+                        FOREIGN KEY (id_user) REFERENCES User(id_user),
+                        FOREIGN KEY (id_reservation) REFERENCES Reservation(id_reservation)
+                    )";
+
+                using var createCmd = new SqliteCommand(createQuery, conn);
+                createCmd.ExecuteNonQuery();
+            }
         }
 
         // AUTHENTIFICATION
@@ -104,10 +160,10 @@ namespace GantsPlace.Services
             using var conn = new SqliteConnection(connectionString);
             conn.Open();
 
-            string query = @"INSERT INTO Reservation 
-                            (id_salle,id_user,id_creneau,jour,statut,nom_salle) 
+            string query = @"INSERT INTO Reservation
+                            (id_salle,id_user,id_creneau,jour,statut,nom_salle)
                             VALUES(@salle,@user,@creneau,@jour,@statut,
-                                   (SELECT nom_salle FROM Salle WHERE id_salle=@salle))";
+                                   (SELECT nom_salle FROM Salle WHERE id_salle=@salle)); SELECT last_insert_rowid();";
 
             using var cmd = new SqliteCommand(query, conn);
             cmd.Parameters.AddWithValue("@salle", salleId);
@@ -116,7 +172,14 @@ namespace GantsPlace.Services
             cmd.Parameters.AddWithValue("@jour", jour);
             cmd.Parameters.AddWithValue("@statut", "Confirmée");
 
-            cmd.ExecuteNonQuery();
+            int reservationId = Convert.ToInt32(cmd.ExecuteScalar());
+
+            // Inserer dans Historique
+            string historiqueQuery = @"INSERT INTO Historique (id_user, id_reservation, action) VALUES(@user, @reservation, 'created')";
+            using var histCmd = new SqliteCommand(historiqueQuery, conn);
+            histCmd.Parameters.AddWithValue("@user", Session.UtilisateurConnecte!.Id);
+            histCmd.Parameters.AddWithValue("@reservation", reservationId);
+            histCmd.ExecuteNonQuery();
         }
 
         // CHARGER LES RESERVATIONS D'UN UTILISATEUR
@@ -170,6 +233,13 @@ namespace GantsPlace.Services
             using var cmd = new SqliteCommand(query, conn);
             cmd.Parameters.AddWithValue("@id", reservation.Id);
             cmd.ExecuteNonQuery();
+
+            // Inserer dans Historique
+            string historiqueQuery = @"INSERT INTO Historique (id_user, id_reservation, action) VALUES(@user, @reservation, 'cancelled')";
+            using var histCmd = new SqliteCommand(historiqueQuery, conn);
+            histCmd.Parameters.AddWithValue("@user", Session.UtilisateurConnecte!.Id);
+            histCmd.Parameters.AddWithValue("@reservation", reservation.Id);
+            histCmd.ExecuteNonQuery();
 
             if (Session.UtilisateurConnecte != null)
             {

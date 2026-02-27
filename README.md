@@ -37,7 +37,7 @@ Elle permet aux utilisateurs de :
 |-------|-----------------|
 | Système d'exploitation | **Windows 10 ou supérieur** |
 | [.NET SDK](https://dotnet.microsoft.com/download) | **8.0** |
-| Éditeur recommandé | **VS Code** avec l'extension C# Dev Kit |
+| Éditeur recommandé | **VS Code** avec l'extension C# Dev Kit | **Visual Studio 2026** |
 
 > WPF est une technologie **Windows uniquement**. L'application ne peut pas être compilée ou exécutée sur Linux ou macOS.
 

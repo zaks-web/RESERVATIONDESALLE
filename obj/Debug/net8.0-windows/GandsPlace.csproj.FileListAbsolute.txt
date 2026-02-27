@@ -90,3 +90,4 @@ C:\Users\ziads\Desktop\c# vs\RéservationdeSalle\GandsPlace\obj\Debug\net8.0-win
 C:\Users\ziads\Desktop\c# vs\RéservationdeSalle\GandsPlace\obj\Debug\net8.0-windows\GandsPlace.pdb
 C:\Users\ziads\Desktop\c# vs\RéservationdeSalle\GandsPlace\obj\Debug\net8.0-windows\GandsPlace.genruntimeconfig.cache
 C:\Users\ziads\Desktop\c# vs\RéservationdeSalle\GandsPlace\obj\Debug\net8.0-windows\ref\GandsPlace.dll
+C:\Users\ziads\Desktop\c# vs\RéservationdeSalle\GANDSPLACE\obj\Debug\net8.0-windows\GandsPlace.sourcelink.json
